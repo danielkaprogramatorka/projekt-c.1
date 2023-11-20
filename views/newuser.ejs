@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Můj formulář</title>
+</head>
+<body>
+    <style>
+/* Základní styl pro formulář */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Styl pro nadpis formuláře */
+
+h2 {
+  text-align: center;
+  
+}
+
+/* Styl pro jednotlivé položky formuláře */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bba4a4;
+  border-radius: 4px;
+  background-color: lightslategray;
+  
+}
+
+    </style>
+    <h1>Kontaktní formulář</h1>
+    <form action="" method="post">
+
+        <label for="lname">přijmení:</label>
+        <input type="text" id="lname" name="lname" required>
+        
+        <label for="fname">jméno:</label>
+        <input type="text" id="fname" name="fname" required>
+        
+        <label for="age">Zpráva:</label>
+        <textarea id="age" name="age" rows="4" required></textarea>
+        
+        <input type="submit" value="Odeslat">
+    </form>
+</body>
+</html>
