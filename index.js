@@ -13,7 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 var mysql = require('mysql2');
 
 const con = mysql.createConnection({
-    host: '192.168.1.161', // Název nebo IP adresa serveru databáze
+    host: '192.168.1.161', // Náz
     user: 'daniela.vasilova', // Uživatelské jméno
     password: 'Danielavasilova16', // Heslo
     database: 'daniela.vasilova', // Název databáze
